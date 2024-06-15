@@ -2,11 +2,12 @@ import React from 'react';
 import {useState} from 'react';
 import Button from './Button';
 import axios from 'axios';
+import Cat from './Cat';
 
 
 const CatFact = () => {
-  const [facts, setFacts] = useState(["House cats share 95.6% of their genetic makeup with tigers."]);
-  const [count, setCount] = useState(1);
+  const [facts, setFacts] = useState(["House cats share 95.6% of their genetic makeup with tigers.", "Cats have an average of 24 whiskers, arranged in four horizontal rows on each side", "A cat has more bones than a human; humans have 206, and the cat - 230."]);
+  const [count, setCount] = useState();
 //   useEffect(() => {
 //       getFacts();
 //   }, [])
@@ -21,7 +22,8 @@ const CatFact = () => {
     <div>
     <input type="number" value={count} onChange={(val) => setCount(val.target.value)} placeholder="How many facts do you want to see?" />
     <Button call={getFacts} />
-    <div> <h4> Did you know?  </h4> <h5><ul>{facts.map((fact) => (<li>{fact}</li>))}</ul></h5></div>
+    <div> <h3> Did you know?  </h3> <h5><div class="card">{facts.map((fact) => (<div class="cd">{fact}</div>))}</div></h5></div>
+    <Cat />
     </div>
   );
 }

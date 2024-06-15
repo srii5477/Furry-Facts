@@ -43,13 +43,50 @@ input {
   margin-bottom: 5%;
 }
 
-.footer{
+.footer {
   display: flex;
 }
-.footer img {
-  height: 200px;
-  width: 400px;
+
+.card {
+  display: grid;
+  grid-template-columns: 1fr 1fr 1fr;
+  grid-template-rows: 1fr 1fr 1fr; 
+  grid-auto-rows: 1fr 1fr 1fr;
+  background-color: transparent;
+  border: 0px;
+  gap: 15px;
+  color: rgb(120, 47, 2);
+  
+}
+
+.btn:hover {
+  background-color: #c15121 !important;
+  color: white !important;
+  border: 0px !important;
+}
+
+.btn {
+  background-color: transparent !important;
+  color: rgb(137, 35, 1) !important;
+  border: 0px !important;
+}
+
+
+.cd {
+  padding: 10px;
+  border: 1px solid rgba(255, 255, 255, 0.8);
+}
+
+.gif {
   opacity: 1;
-  margin: 3%;
+  height: 200px;
+  width: 250px;
+  border-radius: 45%;
+}
+
+.footer{
+  margin-top: 5%;
+  gap: 5%;
+  display: flex;
 }
 
