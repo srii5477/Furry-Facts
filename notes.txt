@@ -1,0 +1,7 @@
+1. npm start to start the app up
+2. deploy on netlify
+3. app.js:- imports components to render it on the webpage
+4. fact.js:- contains fact
+5. button.js
+6. css
+7. 

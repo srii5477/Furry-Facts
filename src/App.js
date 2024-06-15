@@ -1,23 +1,15 @@
-import logo from './logo.svg';
-import './App.css';
+import image from "./cat-simple-vector-black-image-white-background-silhouette-svg-vector-cat-simple-vector-black-image-white-background-272686278.jpg";
+import './stylesheets/App.css';
+import CatFact from './components/CatFact';
 
 function App() {
   return (
     <div className="App">
-      <header className="App-header">
-        <img src={logo} className="App-logo" alt="logo" />
-        <p>
-          Edit <code>src/App.js</code> and save to reload.
-        </p>
-        <a
-          className="App-link"
-          href="https://reactjs.org"
-          target="_blank"
-          rel="noopener noreferrer"
-        >
-          Learn React
-        </a>
-      </header>
+      <h1> Get a Cat Fact </h1>
+      <br></br>
+      <img src={image} alt="cat pic" />
+      <h3> Get to know something interesting about our furry friends! </h3>
+      <CatFact />
     </div>
   );
 }
