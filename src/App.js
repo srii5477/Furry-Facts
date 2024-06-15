@@ -5,7 +5,7 @@ import CatFact from './components/CatFact';
 function App() {
   return (
     <div className="App">
-      <h1> Get a Cat Fact </h1>
+      <h1> Get a Furry Fact </h1>
       <br></br>
       <img src={image} alt="cat pic" />
       <h3> Get to know something interesting about our furry friends! </h3>

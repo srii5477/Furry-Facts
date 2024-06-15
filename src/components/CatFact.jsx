@@ -22,7 +22,7 @@ const CatFact = () => {
     <Button call={getFacts} />
     <div> <h4> Did you know?  </h4> <ul>{facts.map((fact) => (<li>{fact}</li>))}</ul></div>
     </div>
-  )
+  );
 }
 
 export default CatFact
