@@ -1,0 +1,1 @@
+Furry Facts is an elegantly styled and informative website that teaches you amazing facts about our furry friends. You can choose how many facts you wish to see and learn how much ever you wish to about the gentlest solitary hunters walking the Earth!
