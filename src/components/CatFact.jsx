@@ -2,7 +2,7 @@ import React from 'react';
 import {useState} from 'react';
 import Button from './Button';
 import axios from 'axios';
-import Cat from './Cat';
+import Footer from './Footer';
 
 
 const CatFact = () => {
@@ -20,10 +20,10 @@ const CatFact = () => {
   }
   return (
     <div>
-    <input type="number" value={count} onChange={(val) => setCount(val.target.value)} placeholder="How many facts do you want to see?" />
+    <input type="number" value={count} onChange={(val) => setCount(val.target.value)} placeholder="How many facts do you want?" />
     <Button call={getFacts} />
     <div> <h3> Did you know?  </h3> <h5><div class="card">{facts.map((fact) => (<div class="cd">{fact}</div>))}</div></h5></div>
-    <Cat />
+    <Footer />
     </div>
   );
 }

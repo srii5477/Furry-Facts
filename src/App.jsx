@@ -1,4 +1,4 @@
-import image from './cat-simple-vector-black-image-white-background-silhouette-svg-vector-cat-simple-vector-black-image-white-background-272686278.jpg';
+import image from './16302fd72cbce21a2b4b890c0ca57868.png';
 import './stylesheets/App.css';
 import CatFact from './components/CatFact';
 
